@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #383e4b;
+}
+
+.profile{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgb(236, 255, 252);
+    box-shadow: 0 0 5px rgb(228, 245, 245);
+    margin-bottom: 20px;
+}
+
+header h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p{
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+section{
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background: rgb(202, 241, 241);
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: white;
+    transform: scale(1.05);
+}
+
+/* SKILLS */
+
+.Skill{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.Skill h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.skills-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* CARD */
+
+.card{
+    background: #6982a7;
+    padding: 30px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(253, 218, 253, 0.3);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    background: #8ef1f1;
+}
+
+/* CONTACT */
+
+.Contact{
+    text-align: center;
+    padding: 50px 20px;
+    color: black;
+}
+
+.Contact h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.Contact p{
+    margin: 10px 0;
+    color:black;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #35373f;
+    margin-top: 40px;
+    color: white;
+}
