@@ -57,7 +57,7 @@ section{
 }
 
 .btn:hover{
-    background: white;
+    background:pink;
     transform: scale(1.05);
 }
 
